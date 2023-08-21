@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Bar Site</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: transparent;
+    color: blue;
+    font-size: 18px;
+    width: 200px;
+  }
+
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <input type="text" class="search-bar" placeholder="Search...">
+    <button class="search-button">Search</button>
+  </div>
+</body>
+</html>
